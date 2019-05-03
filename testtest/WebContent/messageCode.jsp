@@ -8,7 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<jsp:useBean id="msg1" class="testtest.Message" scope="page" />
+<jsp:useBean id="msg1" class="testtest.Message" scope="application" />
 <jsp:setProperty property="*" name="msg1"/>
 <ul>
 <li> <jsp:getProperty property="code" name="msg1"/> </li>
